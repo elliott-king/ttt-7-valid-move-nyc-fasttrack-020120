@@ -5,9 +5,9 @@ def valid_move?(board, i)
   end
 
   if board[i] == 'X' || board[i] == 'O'
-    return true
-  else
     return false
+  else
+    return true
   end
 end
 
